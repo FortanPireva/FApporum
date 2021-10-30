@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Contracts\Identity" />
+      <Folder Include="Contracts\Infrastructure" />
+      <Folder Include="Models" />
+      <Folder Include="Services" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FormumApp.Domain\FormumApp.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
